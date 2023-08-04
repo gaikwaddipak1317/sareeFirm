@@ -4,9 +4,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import MainOwnerLogin from './components/MainOwnerLogin';
 import BranchOwnerLogin from './components/BranchOwnerLogin';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
+    <>
+    <Navbar title="SareeFirm"/>
     <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage/>} />
@@ -14,6 +17,7 @@ const App = () => {
         <Route path="/branch-owner-login" element={<BranchOwnerLogin/>} />
       </Routes>
     </Router>
+    </>
   );
 };
 
