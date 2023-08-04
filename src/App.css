@@ -1,0 +1,124 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Container styles */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Main section styles */
+main {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Login form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+/* Saree cards styles */
+.saree-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.saree-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.saree-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.saree-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.saree-card p {
+  color: #666;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  color: #666;
+}
